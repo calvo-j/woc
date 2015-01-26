@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.woc.MainActivity" 
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/cEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+         >
+    </EditText>
+
+    <Button 
+        
+         android:id="@+id/cButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+    <TextView
+        android:id="@+id/c40"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:textSize="25sp"/>
+    
+    <TextView
+        android:id="@+id/c50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"/>
+        
+     <TextView
+        android:id="@+id/c60"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"  
+        android:textSize="25sp"/>
+     
+      <TextView
+        android:id="@+id/c75"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"/>
+
+     <TextView
+        android:id="@+id/c85"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"/>
+
+      <TextView
+        android:id="@+id/c95"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"/>
+
+</LinearLayout>
