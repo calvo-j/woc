@@ -28,9 +28,7 @@ public class MainActivity extends Activity {
 				setContentView(R.layout.a);
 				
 		        Button button = (Button) findViewById(R.id.aButton);
-		        
 		        final EditText start = (EditText) findViewById(R.id.aEditText);
-				
 				final TextView p40 = (TextView) findViewById(R.id.a40);
 		        final TextView p50 = (TextView) findViewById(R.id.a50);
 		        final TextView p60 = (TextView) findViewById(R.id.a60);
@@ -43,31 +41,13 @@ public class MainActivity extends Activity {
 					@Override
 					public void onClick(View v) {
 						// TODO Auto-generated method stub
-						String a;
 						
-						//for 40
-						a = cal(start, 40);
-						p40.setText("5 reps of "+a);
-						
-						//for 50
-						a = cal(start, 50);
-						p50.setText("5 reps of "+a);
-				
-						//for 60
-						a = cal(start, 60);
-						p60.setText("3 reps of "+a);
-						
-						//for 75
-						a = cal(start, 75);
-						p75.setText("5 reps of "+a);
-						
-						//for 80
-						a = cal(start, 80);
-						p80.setText("5 reps of "+a);
-				
-						//for 85
-						a = cal(start, 85);
-						p85.setText("5 or more reps of "+a);
+						p40.setText("5 reps of "+ cal(start, 40));
+						p50.setText("5 reps of "+ cal(start, 50));
+						p60.setText("3 reps of "+ cal(start, 60));
+						p75.setText("5 reps of "+ cal(start, 75));
+						p80.setText("5 reps of "+ cal(start, 80));
+						p85.setText("5 or more reps of "+ cal(start, 85));
 						
 			
 					}
@@ -83,9 +63,7 @@ public class MainActivity extends Activity {
 				setContentView(R.layout.b);
 				
 		        Button button = (Button) findViewById(R.id.bButton);
-		        
 		        final EditText start = (EditText) findViewById(R.id.bEditText);
-				
 				final TextView p40 = (TextView) findViewById(R.id.b40);
 		        final TextView p50 = (TextView) findViewById(R.id.b50);
 		        final TextView p60 = (TextView) findViewById(R.id.b60);
@@ -98,31 +76,13 @@ public class MainActivity extends Activity {
 					@Override
 					public void onClick(View v) {
 						// TODO Auto-generated method stub
-						String a;
-						
-						//for 40
-						a = cal(start, 40);
-						p40.setText("5 reps of "+a);
-						
-						//for 50
-						a = cal(start, 50);
-						p50.setText("5 reps of "+a);
-				
-						//for 60
-						a = cal(start, 60);
-						p60.setText("3 reps of "+a);
-						
-						//for 80
-						a = cal(start, 80);
-						p80.setText("3 reps of "+a);
-						
-						//for 85
-						a = cal(start, 85);
-						p85.setText("3 reps of "+a);
-				
-						//for 90
-						a = cal(start, 90);
-						p90.setText("3 or more reps of "+a);
+
+						p40.setText("5 reps of "+ cal(start, 40));
+						p50.setText("5 reps of "+ cal(start, 50));
+						p60.setText("3 reps of "+ cal(start, 60));
+						p80.setText("3 reps of "+ cal(start, 80));
+						p85.setText("3 reps of "+ cal(start, 85));
+						p90.setText("3 or more reps of "+ cal(start, 90));
 			
 					}
 				});
@@ -138,9 +98,7 @@ public class MainActivity extends Activity {
 				setContentView(R.layout.c);
 				
 		        Button button = (Button) findViewById(R.id.cButton);
-		        
 		        final EditText start = (EditText) findViewById(R.id.cEditText);
-				
 				final TextView p40 = (TextView) findViewById(R.id.c40);
 		        final TextView p50 = (TextView) findViewById(R.id.c50);
 		        final TextView p60 = (TextView) findViewById(R.id.c60);
@@ -153,31 +111,13 @@ public class MainActivity extends Activity {
 					@Override
 					public void onClick(View v) {
 						// TODO Auto-generated method stub
-						String a;
-						
-						//for 40
-						a = cal(start, 40);
-						p40.setText("5 reps of "+a);
-						
-						//for 50
-						a = cal(start, 50);
-						p50.setText("5 reps of "+a);
-				
-						//for 60
-						a = cal(start, 60);
-						p60.setText("3 reps of "+a);
-						
-						//for 75
-						a = cal(start, 75);
-						p75.setText("5 reps of "+a);
-						
-						//for 85
-						a = cal(start, 85);
-						p85.setText("3 reps of "+a);
-				
-						//for 95
-						a = cal(start, 95);
-						p95.setText("1 or more reps of "+a);
+
+						p40.setText("5 reps of "+ cal(start, 40));
+						p50.setText("5 reps of "+ cal(start, 50));
+						p60.setText("3 reps of "+ cal(start, 60));
+						p75.setText("5 reps of "+ cal(start, 75));
+						p85.setText("3 reps of "+ cal(start, 85));
+						p95.setText("1 or more reps of "+ cal(start, 95));
 			
 					}
 				});
@@ -192,9 +132,7 @@ public class MainActivity extends Activity {
 				setContentView(R.layout.d);
 				
 		        Button button = (Button) findViewById(R.id.dButton);
-		        
 		        final EditText start = (EditText) findViewById(R.id.dEditText);
-				
 				final TextView p40 = (TextView) findViewById(R.id.d40);
 		        final TextView p50 = (TextView) findViewById(R.id.d50);
 		        final TextView p60 = (TextView) findViewById(R.id.d60);
@@ -207,31 +145,13 @@ public class MainActivity extends Activity {
 					@Override
 					public void onClick(View v) {
 						// TODO Auto-generated method stub
-						String a;
 						
-						//for 40
-						a = cal(start, 40);
-						p40.setText("5 reps of "+a);
-						
-						//for 50
-						a = cal(start, 50);
-						p50.setText("5 reps of "+a);
-				
-						//for 60
-						a = cal(start, 60);
-						p60.setText("3 reps of "+a);
-						
-						//for dd60
-						a = cal(start, 60);
-						pp60.setText("5 reps of "+a);
-						
-						//for 65
-						a = cal(start, 65);
-						p65.setText("5 reps of "+a);
-				
-						//for 70
-						a = cal(start, 70);
-						p70.setText("5 reps of "+a);
+						p40.setText("5 reps of "+ cal(start, 40));
+						p50.setText("5 reps of "+ cal(start, 50));
+						p60.setText("3 reps of "+ cal(start, 60));					
+						pp60.setText("5 reps of "+ cal(start, 60));
+						p65.setText("5 reps of "+ cal(start, 65));
+						p70.setText("5 reps of "+ cal(start, 70));
 						
 			
 					}
